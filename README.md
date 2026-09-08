@@ -1,4 +1,4 @@
-# RemotePhone
+# superphone
 
 基于 RustDesk 二开的**远程手机电话控制**产品。私域分发，不上架、不推广。
 
@@ -43,7 +43,7 @@ P0 通了 → 全线铺开 A→B→C→D；P0 死了 → 降级卖 S1 控制版�
 
 | 路径 | 内容 |
 |---|---|
-| [docs/RemotePhone-设计草稿.md](./docs/RemotePhone-设计草稿.md) | 设计 v1：双 SKU、key 权限位、License 服务、L0→L7 瘦身路线图、MediaInjection、P0 边界 |
+| [docs/superphone-设计草稿.md](./docs/superphone-设计草稿.md) | 设计 v1：双 SKU、key 权限位、License 服务、L0→L7 瘦身路线图、MediaInjection、P0 边界 |
 | [docs/专家团队.md](./docs/专家团队.md) | 10 位专家角色、职责、交付物、招募状态 |
 | [docs/工作计划.md](./docs/工作计划.md) | 31 项任务，按 A/B/C/D/X 五阶段，含验收标准 |
 | [docs/红线与解锁门禁.md](./docs/红线与解锁门禁.md) | 六条不可越过的红线 + S1–S4 售卖解锁门禁 |
@@ -59,10 +59,10 @@ P0 通了 → 全线铺开 A→B→C→D；P0 死了 → 降级卖 S1 控制版�
 
 | 资产 | 位置 | 说明 |
 |---|---|---|
-| 本仓库 | `/workspace/RemotePhone` | **工程主仓**，源码与文档的唯一落点。由 `remotphone-init.bundle` 恢复而来 |
-| 在线看板 | 资料库《RemotePhone-专家团队与工作计划看板》 | 可视化视图，与数据表双向同步 |
-| 数据表 ×2 | 资料库《RemotePhone 专家团队》《RemotePhone 工作计划》 | 在线筛选与状态更新 |
-| 设计文档 | 资料库《RemotePhone-设计草稿》 | 与 `docs/RemotePhone-设计草稿.md` 同源 |
+| 本仓库 | `/workspace/superphone` | **工程主仓**，源码与文档的唯一落点。由 `remotphone-init.bundle` 恢复而来 |
+| 在线看板 | 资料库《superphone-专家团队与工作计划看板》 | 可视化视图，与数据表双向同步 |
+| 数据表 ×2 | 资料库《superphone 专家团队》《superphone 工作计划》 | 在线筛选与状态更新 |
+| 设计文档 | 资料库《superphone-设计草稿》 | 与 `docs/superphone-设计草稿.md` 同源 |
 
 > 若在线数据表与本文档冲突，以**本仓库**为准——数据表是视图，仓库是事实。
 
