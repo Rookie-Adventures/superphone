@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Build artifacts (future code)
+/target
+/node_modules
+build/
+*.apk
+*.keystore
+
+# Secrets / tokens (never commit)
+.github_token
+*.token
+*.pem
+*.key
+
+# Local agent state
+.codebuddy/
